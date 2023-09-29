@@ -1,0 +1,52 @@
+body {
+    font-family: 'Anton', sans-serif;
+    background-color: #eaeadc;
+}
+.alternance {
+    margin-left: 5%;
+}
+h1 {
+    font-size: 12vw;
+    margin-left: 5%;
+}
+h5 {
+    font-size: 4vw;
+    padding: 1em;
+}
+h4 {
+    font-size: 3vw;
+}
+.flow-text {
+    font-size: 3vw;
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+    background-image: url('./img/footerback.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footcard {
+    background-color: #eaeadc;
+    border-radius: 7px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+.lien {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vw;
+}
+.material-icons {
+    font-size: 2vw; 
+}
+.fa {
+    font-size: 2vw; 
+}
+.citation {
+    font-family: 'Shrikhand', cursive;
+    margin-bottom: 10% ;
+}
+.moi {
+    align-items: center;
+    justify-content: center;
+}

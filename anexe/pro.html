@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anexe.css">
+    <title>Mon parcours professionnel</title>
+</head>
+<body style="margin: 3%;">
+    <div class="row">
+        <div class="col s12 m4">
+            <h1 class=" blue-text text-darken-4">Mon parcours professionnel</h1>
+        </div>
+        <div class="col s12 m8 center-align">
+            
+                <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header" style="padding: 3%;"><i class="material-icons" style="font-size: 3vw;">add</i><p class="blue-text text-darken-4" style="font-size: 2vw; padding-right: 5%; padding-left: 5%;">janv 2023 <br> - mai 2023</p><span style="font-size: 3vw; padding-bottom: 3%;">Stage développeur web <br> à Ynov</span></div>
+                        <div class="collapsible-body"><p class="flow-text" style="font-size: 1.8vw;">J'ai participé à la création d'un site web dynamique pour 'La Course Du Petit Prince', 
+                            mettant en avant une bonne esthétique grâce à une maîtrise en HTML/CSS.
+                            Travaillant en équipe, nous avons assuré une expérience utilisateur optimale sur les dispositifs.</p></div>
+                    </li>
+                </ul>
+                <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header" style="padding: 3%;"><i class="material-icons" style="font-size: 3vw;">add</i><p class="blue-text text-darken-4" style="font-size: 2vw; padding-right: 5%; padding-left: 5%;">sept 2022 <br> - mai 2023</p><span style="font-size: 3vw; padding-bottom: 3%;">Employé polyvalent. <br>au bistrot de sommelier</span></div>
+                        <div class="collapsible-body"><p class="flow-text" style="font-size: 1.8vw;">En tant qu'étudiant, j'ai géré avec rigueur la plonge et le nettoyage de la cuisine, 
+                            maintenant des standards d'hygiène impeccables. De plus, j'ai été polyvalent,
+                            en offrant un service en salle chaleureux et accueillant, renforçant ainsi la satisfaction client.</p></div>
+                    </li>
+                </ul>
+                <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header" style="padding: 3%;"><i class="material-icons" style="font-size: 3vw;">add</i><p class="blue-text text-darken-4" style="font-size: 2vw; padding-right: 5%; padding-left: 5%;">avril 2022 <br> - juin 2022</p><span style="font-size: 3vw; padding-bottom: 3%;">Business Déveloper en <br> auto-entrepreneur</span></div>
+                        <div class="collapsible-body"><p class="flow-text" style="font-size: 1.8vw;">En tant que commercial terrain, j'ai joué un rôle essentiel dans le développement de l'application Epicery. 
+                            Ma capacité à diriger une équipe a également été 
+                            déterminante dans la réalisation de nos objectifs.</p></div>
+                    </li>
+                </ul>
+                <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header" style="padding: 3%;"><i class="material-icons" style="font-size: 3vw;">add</i><p class="blue-text text-darken-4" style="font-size: 2vw; padding-right: 5%; padding-left: 5%;">nov 2021 <br> - août 2022</p><span style="font-size: 3vw; padding-bottom: 3%;">Conseiller de vente <br> chez Castorama</span></div>
+                        <div class="collapsible-body"><p class="flow-text" style="font-size: 1.8vw;">En tant qu'étudiant, j'ai été chargé de réserver un accueil chaleureux et des conseils avisés aux clients,
+                            en maintenant le magasin impeccable et en gérant efficacement les stock.
+                            J'ai également joué un rôle clé en accompagnant les clients dans la réalisation de leurs projets,
+                            renforçant ainsi leur satisfaction et fidélité.</p></div>
+                    </li>
+                </ul>
+                <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header" style="padding: 3%;"><i class="material-icons" style="font-size: 3vw;">add</i><p class="blue-text text-darken-4" style="font-size: 2vw; padding-right: 5%; padding-left: 5%;">juin 2020 <br> - nov 2021</p><span style="font-size: 3vw; padding-bottom: 3%;">Employé polyvalent <br> chez Mc Donald's</span></div>
+                        <div class="collapsible-body"><p class="flow-text" style="font-size: 1.8vw;">En tant que cuisinier polyvalent, hôte d'accueil et serveur, 
+                            j'ai démontré un engagement constant envers la satisfaction des clients. 
+                            En parallèle, j'ai veillé à la propreté et à l'entretien des locaux. 
+                            Ma contribution ne s'est pas limitée à l'opérationnel : 
+                            j'ai également joué un rôle clé dans la formation des nouvelles recrues 
+                            et apporté un soutien précieux dans la gestion d'équipe.</p></div>
+                    </li>
+                </ul>
+        </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var elems = document.querySelectorAll('.collapsible');
+                    var instances = M.Collapsible.init(elems);
+                });
+            </script>                            
+        </div>
+    <div class="row">
+        <div class="col s12 center-align">
+            <a href="../index.html" class="waves-effect waves-light btn-large blue darken-4"><i class="material-icons left">arrow_back</i>retour</a>
+        </div>
+    </div>
+</body>
+</html>
